@@ -115,9 +115,9 @@ function parsePath(obj, expression) {
 //测试
 observe(obj)
 
-// let w1 = new Watcher(obj, 'a', (val, oldVal) => {
-//   console.log(`obj.a 从 ${oldVal}(oldVal) 变成了 ${val}(newVal)`)
-// })
+let w1 = new Watcher(obj, 'a', (val, oldVal) => {
+  console.log(`obj.a 从 ${oldVal}(oldVal) 变成了 ${val}(newVal)`)
+})
 
 
 
